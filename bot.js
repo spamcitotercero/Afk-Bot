@@ -8,6 +8,8 @@ const config = require('./settings.json');
 const loggers = require('./logging.js');
 const logger = loggers.logger;
 
+const keep_alive = require('./keep_alive.js')
+
 function createBot() {
    const bot = mineflayer.createBot({
       username: config['bot-account']['username'],
