@@ -1,6 +1,6 @@
 {
   "bot-account": {
-    "username": "BOTSITO2",
+    "username": "ROBOTCITO",
     "password": "",
     "type": "mojang"
   },
@@ -26,24 +26,22 @@
 
     "anti-afk": {
       "enabled": true,
-      "sneak": false
+      "sneak": true
     },
 
     "chat-messages": {
-      "enabled": false,
+      "enabled": true,
       "repeat": true,
       "repeat-delay": 60,
 
       "messages": [
-        "I'm a regular player ",
-        "My owner is urFate_ ",
-        "I want be alone ",
-        "Visit my GitHub page! (urFate/Afk-Bot)"
+        "/login megabot",
+        "/gamemode creative",
       ]
     },
 
-    "chat-log": true,
-    "auto-reconnect": false,
+    "chat-log": false,
+    "auto-reconnect": true,
     "auto-recconect-delay": 5000
   }
 }
