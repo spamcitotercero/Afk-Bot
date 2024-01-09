@@ -32,16 +32,19 @@
     "chat-messages": {
       "enabled": true,
       "repeat": true,
-      "repeat-delay": 10,
+      "repeat-delay": 480,
 
       "messages": [
-        "/register megabot megabot",
         "/login megabot",
-        "/gamemode creative"
+        "/gamemode creative",
+        "Sigan a EFRAA SHARK en Instagram Porfavor :) https://www.instagram.com/efraa.shark/",
+        "Suscribanse a EFRAA SHARK en Youtube Porfavor :) https://www.youtube.com/@efraashark",
+        "No te olvides de seguir a EFRAA SHARK en Twitch https://www.twitch.tv/efraa_shark",
+        "AYUDA el efra me tiene secuestrado en el sotano y me obliga a mandar esos mensajes ayudaaaa"
       ]
     },
 
-    "chat-log": false,
+    "chat-log": true,
     "auto-reconnect": true,
     "auto-recconect-delay": 5000
   }
